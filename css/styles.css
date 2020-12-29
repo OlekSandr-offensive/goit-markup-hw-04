@@ -16,6 +16,7 @@
   --background-dark-color: #2f303a;
   --rgba-transparent-color: rgba(255, 255, 255, 0.6);
   --background-task-color: #e5e5e5;
+  --background-overlay-color: rgba(47, 48, 58, 0.4);
 }
 
 body {
@@ -160,6 +161,15 @@ h3 {
 }
 
 /* hero */
+/* .overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, var(--background-overlay-color)),
+    url("../image/Img-overlay.jpg");
+} */
+
 .hero {
   background: var(--background-dark-color);
   padding: 200px 0;
@@ -174,6 +184,21 @@ h3 {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+}
+
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      var(--background-overlay-color),
+      var(--background-overlay-color)
+    ),
+    url("../image/Img-overlay.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* features */
