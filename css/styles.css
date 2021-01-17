@@ -214,9 +214,8 @@ h3 {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.fe .feature-item {
+.feature-item {
   width: 270px;
-  list-style: none;
 }
 
 .feature-list .feature-item + .feature-item {
@@ -353,7 +352,7 @@ h3 {
   border-radius: 50%;
 }
 
-.view-svg {
+.actions > .view-svg:not(:last-child) {
   margin-right: 10px;
 }
 
