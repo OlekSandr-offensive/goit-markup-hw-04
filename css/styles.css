@@ -131,6 +131,7 @@ h3 {
   color: var(--akcent-color);
 }
 
+/* site-contact */
 .site-contact {
   display: flex;
   margin-left: auto;
@@ -153,6 +154,8 @@ h3 {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
 }
 
 .site-contact .link:hover,
@@ -160,6 +163,12 @@ h3 {
   color: var(--akcent-color);
 }
 
+.mail-icon,
+.tel-icon {
+  margin-right: 10px;
+}
+
+/* Hero */
 .hero {
   background: var(--background-dark-color);
   padding: 200px 0;
@@ -210,21 +219,6 @@ h3 {
   width: 270px;
 }
 
-/* .feature-item::before {
-  display: block;
-  content: '';
-  width: 270px;
-  height: 120px;
-  outline: 1px solid red; 
-  margin-bottom: 30px;
-
-  border-radius: 4px;
-  background-image: url(/image/png/Group-1.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-} */
-
 .feature-list .feature-item + .feature-item {
   margin-left: 30px;
 }
@@ -236,6 +230,21 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
+}
+
+.item-decoration {
+  width: 270px;
+  height: auto;
+  background: var(--background-white-color);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.svg-icon {
+  width: 70px;
 }
 
 /* section */
