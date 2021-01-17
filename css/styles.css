@@ -322,14 +322,39 @@ h3 {
 }
 
 .group {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 32px;
   text-align: center;
   background-color: var(--primary-white-color);
 }
 
 .tittle {
   margin-bottom: 10px;
+}
+
+.text {
+  margin-bottom: 16px;
+}
+
+.actions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.actions-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+}
+
+.view-svg {
+  margin-right: 10px;
 }
 
 /* batton */
