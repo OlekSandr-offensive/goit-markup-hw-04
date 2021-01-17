@@ -214,9 +214,9 @@ h3 {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
-.feature-item {
+.fe .feature-item {
   width: 270px;
+  list-style: none;
 }
 
 .feature-list .feature-item + .feature-item {
