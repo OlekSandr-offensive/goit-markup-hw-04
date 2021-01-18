@@ -357,7 +357,24 @@ h3 {
   margin-right: 10px;
 }
 
+.actions-icon:hover,
+.actions-icon:focus {
+  outline: none;
+  border: 1px solid var(--akcent-color);
+  color: var(--akcent-color);
+}
+
+.icons-webs {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
 /* Clients */
+.section-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .clients {
   display: flex;
   justify-content: center;
@@ -376,6 +393,11 @@ h3 {
   border: 1px solid var(--border-line-color);
   box-sizing: border-box;
   border-radius: 4px;
+  color: var(--border-line-color);
+}
+
+.customer {
+  margin-bottom: 50px;
 }
 /* batton */
 .buttons {
