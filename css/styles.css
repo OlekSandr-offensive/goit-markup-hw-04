@@ -367,14 +367,14 @@ h3 {
 .icons-webs {
   width: 20px;
   height: 20px;
-  fill: var(--primary-white-color);
+  fill: currentColor;
 }
 
 .actions-icon:hover,
 .actions-icon:focus {
   outline: none;
-  border: 1px solid var(--akcent-color);
-  fill: var(--akcent-color);
+  background: var(--akcent-color);
+  color: var(--primary-white-color);
 }
 
 /* Clients */
