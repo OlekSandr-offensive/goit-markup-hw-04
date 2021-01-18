@@ -351,24 +351,26 @@ h3 {
   height: 44px;
   border: none;
   border-radius: 50%;
+  color: var(--border-line-color);
 }
 
 .actions > .view-svg:not(:last-child) {
   margin-right: 10px;
 }
 
+.icons-webs {
+  width: 20px;
+  height: 20px;
+  fill: var(--primary-white-color);
+}
+
 .actions-icon:hover,
 .actions-icon:focus {
   outline: none;
   border: 1px solid var(--akcent-color);
-  color: var(--akcent-color);
+  fill: var(--akcent-color);
 }
 
-.icons-webs {
-  width: 20px;
-  height: 20px;
-  fill: currentColor;
-}
 /* Clients */
 .section-clients {
   padding-top: 94px;
