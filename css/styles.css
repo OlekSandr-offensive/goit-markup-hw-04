@@ -167,6 +167,12 @@ h3 {
 .mail-icon,
 .tel-icon {
   margin-right: 10px;
+  fill: currentColor;
+}
+
+.mail-icon .tel-icon:hover,
+.mail-icon .tel-icon:focus {
+  color: var(--akcent-color);
 }
 
 /* Hero */
