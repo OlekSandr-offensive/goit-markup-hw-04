@@ -388,16 +388,23 @@ h3 {
   justify-content: center;
   list-style-type: none;
   padding-left: 0;
-  margin-top: 0;
+  margin-top: auto;
   margin-bottom: 0;
+}
+
+.client-link {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  fill: currentColor;
+  width: 170px;
+  height: 90px;
 }
 
 .client-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 170px;
-  height: 90px;
   border: 1px solid var(--border-line-color);
   box-sizing: border-box;
   border-radius: 4px;
@@ -407,6 +414,7 @@ h3 {
 .customer {
   margin-bottom: 50px;
 }
+
 /* batton */
 .buttons {
   list-style: none;
@@ -563,6 +571,37 @@ h3 {
 
 .mail {
   margin-bottom: 9px;
+}
+
+.box {
+  /* display: flex;
+  align-items: flex-start; */
+}
+
+.reference-tittle {
+  font-size: 14px;
+  line-height: 1, 14;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  margin-bottom: 20px;
+}
+
+.footer-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  color: var(--primary-white-color);
 }
 
 /* invisible */
